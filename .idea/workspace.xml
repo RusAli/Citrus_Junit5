@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d34203c-4d7b-4647-9b2d-e8316884dd55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_3/StubIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/citrus-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/citrus.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetAllCourses_Schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetAllUser_Schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetScore_Schema.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dUnFWQoFvDkr5kVNg2qhugcTEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.StubIT.shouldGetAllCourses.executor": "Run",
+    "JUnit.StubIT.shouldGetAllUsers (1).executor": "Run",
+    "JUnit.StubIT.shouldGetAllUsers (2).executor": "Run",
+    "JUnit.StubIT.shouldGetAllUsers (3).executor": "Run",
+    "JUnit.StubIT.shouldGetAllUsers (4).executor": "Run",
+    "JUnit.StubIT.shouldGetAllUsers.executor": "Run",
+    "JUnit.StubIT.shouldGetScoreById.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.StubIT.shouldGetScoreById">
+    <configuration name="StubIT.shouldGetAllCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
+      <option name="METHOD_NAME" value="shouldGetAllCourses(com.consol.citrus.TestCaseRunner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubIT.shouldGetAllUsers (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
+      <option name="METHOD_NAME" value="shouldGetAllUsers(com.consol.citrus.GherkinTestActionRunner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubIT.shouldGetAllUsers (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
+      <option name="METHOD_NAME" value="shouldGetAllUsers(com.consol.citrus.GherkinTestActionRunner,com.consol.citrus.context.TestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubIT.shouldGetAllUsers (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
+      <option name="METHOD_NAME" value="shouldGetAllUsers(com.consol.citrus.TestCaseRunner,com.consol.citrus.context.TestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StubIT.shouldGetScoreById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
+      <option name="METHOD_NAME" value="shouldGetScoreById(com.consol.citrus.TestCaseRunner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StubIT.shouldGetScoreById" />
+        <item itemvalue="JUnit.StubIT.shouldGetAllCourses" />
+        <item itemvalue="JUnit.StubIT.shouldGetAllUsers (4)" />
+        <item itemvalue="JUnit.StubIT.shouldGetAllUsers (3)" />
+        <item itemvalue="JUnit.StubIT.shouldGetAllUsers (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d34203c-4d7b-4647-9b2d-e8316884dd55" name="Changes" comment="" />
+      <created>1710071420838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710071420838</updated>
+    </task>
+    <servers />
+  </component>
+</project>
