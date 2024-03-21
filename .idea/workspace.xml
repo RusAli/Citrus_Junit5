@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d34203c-4d7b-4647-9b2d-e8316884dd55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework_3/StubIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/citrus-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/citrus.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetAllCourses_Schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetAllUser_Schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/GetScore_Schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataaccess/webservicesserver/NumberToDollars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataaccess/webservicesserver/NumberToDollarsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_3/features/CustomMarshaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_3/helpers/RestHelperIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework_3/helpers/SoapHelperIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/wsdl/numberconversion.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_3/StubIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_3/stubs/StubIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/citrus-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/citrus-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/citrus.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/citrus.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,13 @@
   <component name="ProjectId" id="2dUnFWQoFvDkr5kVNg2qhugcTEQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RestHelperIT.shouldSendHttpRequestWithHelper.executor": "Run",
+    "JUnit.SoapHelperIT.shouldSendSoapRequestWithHelper.executor": "Run",
     "JUnit.StubIT.shouldGetAllCourses.executor": "Run",
     "JUnit.StubIT.shouldGetAllUsers (1).executor": "Run",
     "JUnit.StubIT.shouldGetAllUsers (2).executor": "Run",
@@ -57,13 +59,53 @@
     "JUnit.StubIT.shouldGetAllUsers.executor": "Run",
     "JUnit.StubIT.shouldGetScoreById.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Citrus_Junit5 [generate-sources].executor": "Run",
+    "Maven.Citrus_Junit5 [org.apache.cxf:cxf-codegen-plugin:3.3.4:wsdl2java].executor": "Run",
+    "Maven.Citrus_Junit5 [org.apache.cxf:cxf-codegen-plugin:3.3.4:wsdl2js].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StubIT.shouldGetScoreById">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn generate-sources" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SoapHelperIT.shouldSendSoapRequestWithHelper">
+    <configuration name="RestHelperIT.shouldSendHttpRequestWithHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3.helpers" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.helpers.RestHelperIT" />
+      <option name="METHOD_NAME" value="shouldSendHttpRequestWithHelper(com.consol.citrus.TestActionRunner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoapHelperIT.shouldSendSoapRequestWithHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Citrus_Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_3.helpers" />
+      <option name="MAIN_CLASS_NAME" value="homework_3.helpers.SoapHelperIT" />
+      <option name="METHOD_NAME" value="shouldSendSoapRequestWithHelper(com.consol.citrus.TestActionRunner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StubIT.shouldGetAllCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Citrus_Junit5" />
       <extension name="coverage">
@@ -75,38 +117,6 @@
       <option name="PACKAGE_NAME" value="homework_3" />
       <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
       <option name="METHOD_NAME" value="shouldGetAllCourses(com.consol.citrus.TestCaseRunner)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StubIT.shouldGetAllUsers (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Citrus_Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_3" />
-      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
-      <option name="METHOD_NAME" value="shouldGetAllUsers(com.consol.citrus.GherkinTestActionRunner)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StubIT.shouldGetAllUsers (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Citrus_Junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_3" />
-      <option name="MAIN_CLASS_NAME" value="homework_3.StubIT" />
-      <option name="METHOD_NAME" value="shouldGetAllUsers(com.consol.citrus.GherkinTestActionRunner,com.consol.citrus.context.TestContext)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SoapHelperIT.shouldSendSoapRequestWithHelper" />
+        <item itemvalue="JUnit.RestHelperIT.shouldSendHttpRequestWithHelper" />
         <item itemvalue="JUnit.StubIT.shouldGetScoreById" />
         <item itemvalue="JUnit.StubIT.shouldGetAllCourses" />
         <item itemvalue="JUnit.StubIT.shouldGetAllUsers (4)" />
-        <item itemvalue="JUnit.StubIT.shouldGetAllUsers (3)" />
-        <item itemvalue="JUnit.StubIT.shouldGetAllUsers (2)" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package homework_3;
+package homework_3.stubs;
 
 import com.consol.citrus.TestCaseRunner;
 import com.consol.citrus.annotations.CitrusResource;
